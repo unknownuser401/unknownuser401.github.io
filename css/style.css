@@ -22,15 +22,6 @@ body {
   position: relative;
 }
 
-img{
-width: 50px;
-height: 50px;
-border-style:solid;
-border-width: 1px;
-border-color: #ffffff;
-background-color: #ffffff;
-}
-
 a {
   color: #8C7676;
   -webkit-transition: 0.5s;
@@ -43,13 +34,17 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.5em;
-  font-size: 16px;
+  font-family: "consola", Arial, sans-serif;
+  font-size: 10px;
+  user-drag: none;
+  pointer-events: none;
+  position:relative;
+  top: -400px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "consola", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -73,6 +68,36 @@ h1, h2, h3, h4, h5, h6 {
   border: none !important;
 }
 
+#imgicons{
+  width: 50px;
+  height: 50px;
+  border-style:solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  position:relative;
+  z-index: 1;
+  user-drag: none;
+  pointer-events: none;
+  top: 20px;
+  }
+
+#imgbanners{
+  max-width: 100%;
+  height: auto;
+  position:relative;
+  z-index: 1;
+  user-drag: none;
+  pointer-events: none;
+  }
+
+#minititle{
+  font-family: "consola", Arial, sans-serif;
+  font-size: 10px;
+  user-drag: none;
+  pointer-events: none;
+  position:relative;
+}
 #fh5co-header {
   position: absolute;
   z-index: 999999;
