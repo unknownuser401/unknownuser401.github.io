@@ -75,8 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 1px;
   border-color: #ffffff;
   background-color: #ffffff;
-  position:relative;
-  z-index: 1;
   user-drag: none;
   pointer-events: none;
   top: 20px;
@@ -85,8 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 #imgbanners{
   max-width: 100%;
   height: auto;
-  position:relative;
-  z-index: 1;
   user-drag: none;
   pointer-events: none;
   }
